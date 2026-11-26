@@ -1,19 +1,19 @@
 # catrinspickermann-website
 
-Website-Code. Inhalte sind teilweise noch Entwurf – siehe `[Platzhalter]`-Hinweise direkt im Text auf der Seite.
+Website von Catrin Spickermann, gehostet über GitHub Pages.
 
 ## Dateien
-- `index.html` – gesamter Seiteninhalt, inklusive aller Fotos als eingebettete Base64-Daten
-- `style.css` – Gestaltung (Farben, Schrift, Layout)
+- `index.html`: Startseite, eine Datei ohne Build-Schritt, Gestaltung direkt in der Datei
+- `impressum.html` und `datenschutz.html`: Rechtstexte im gleichen Design, in der Fußzeile verlinkt
+- `bilder/`: Logo, Fotos, Kopf-Herz-Hand-Grafik, Herzlinie
+- `schriften/`: Nunito Sans (frei lizenziert) und MoonTime (gekauft, Webfont-Lizenz vorhanden)
+- `.nojekyll`: GitHub Pages liefert die Dateien unverändert aus
 
-## Bilder
-Alle Fotos sind direkt in der `index.html` eingebettet (kein separater `images`-Ordner nötig). Das macht die Datei groß (~290 KB), stellt aber sicher, dass die Bilder immer angezeigt werden, unabhängig vom Upload-Weg. Die Fotos stammen vorläufig aus alten Screenshots (niedrige Auflösung) – bei Gelegenheit durch Originaldateien in guter Auflösung ersetzen.
+Beide Schriften liegen lokal, damit keine Verbindung zu Google Fonts nötig ist.
 
-## Fehlende Inhalte
-- Abschnitt "Coaching & Begleitung" noch ohne eigenen Text
-- Abschnitt "Talentprogramme" noch ohne eigenen Text
+## Hinweise
+- Impressum und Datenschutzerklärung vor dem Livegang rechtlich prüfen lassen.
+- Die Datenschutzerklärung beschreibt das Hosting über GitHub Pages. Bei einem Anbieterwechsel Abschnitt 3 anpassen.
 
-## Nächste Schritte
-1. Bestehende Dateien im GitHub-Repository löschen
-2. Diese zwei Dateien (`index.html`, `style.css`) per Drag-and-drop hochladen
-3. Netlify baut automatisch neu
+## Farben
+Pflaume #751847, Mauve #a84b79, Rosé #e6a9b9, Hellrosé #f1e4ea, Creme #f6f1ee, Graumauve #b9a8af, Text #424242
